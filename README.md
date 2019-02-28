@@ -1,6 +1,11 @@
-#LiquidFutures
-
+# LiquidFutures
 *This repository is build for an interview project*
+
+## Instruction
+*Strategy.ipynb* - code in jupyter notebook
+*Strategy.pdf* - pdf version of the code and results
+*Returns.png* - Visualization on Performance
+
 
 ## Dependent variable: Previous T-bill growth, Libor (3 month) and S&P 500 index
 Rational: Libor and S&P 500 can well expain the macroeconomic factor, while the past performance of T-bill is a technical factor. 
@@ -15,6 +20,7 @@ Three of those are simple classfication tools and I want to test whether they wo
 
 ## Visualization
 ![alt text](https://github.com/YichuanWSXD/LiquidFutures/blob/master/Returns.png)
+It shows that the model does well in the train set period, but performance fades off.
 
 ## Reflection
 Since overfitting is a huge issue in real world investing, I try to show how to improve the real-world performance by using multiple validation set.
@@ -25,7 +31,7 @@ Another difficult is the mid-frequency strategy. I think it takes some time to f
 
 Neural-network and deep learning could take more dependent variable (more layers) and improve the performance. Continuing traing the model would improve the performance as well. Learned from class, I know that PCA performs well in the bond market by decomposing the yield curves. However I didn't do those because it requires extra research and may take longer than required.
 
-# Takeaway
+## Takeaway
 I enjoy doing the project and am exicted about the stuff learned during the project. 
 
 
