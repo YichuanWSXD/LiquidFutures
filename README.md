@@ -1,5 +1,5 @@
 # LiquidFutures
-*This repository is build for an interview project*
+*This repository is built for an interview project*
 
 ## Instruction
 *Strategy.ipynb* - code in jupyter notebook
