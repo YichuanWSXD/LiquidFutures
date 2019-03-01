@@ -9,7 +9,7 @@
 *Returns.png* - Visualization on Performance
 
 
-## Dependent variable: Previous T-bill growth, Libor (3 month) and S&P 500 index
+## Dependent variable: Previous T-bill monthly return, Libor (3 month) and S&P 500 index
 Rational: Libor and S&P 500 can well expain the macroeconomic factor, while the past performance of T-bill is a technical factor. 
 ## Model: Four different machine learning models
 Logistic regression, support vector regression, support vector classification and random forest.
