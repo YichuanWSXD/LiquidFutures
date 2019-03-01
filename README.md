@@ -22,7 +22,9 @@ Three of those are simple classfication tools and I want to test whether they wo
 
 ## Visualization
 ![alt text](https://github.com/YichuanWSXD/LiquidFutures/blob/master/Returns.png)
-It shows that the model does well in the train set period, but performance fades off.
+
+
+It shows that the model does well in the train set period, but performance fades off. Especially after 2008 financial crisis, all models fail to predict the market, which implies that the changed environment after the crisis or simply the models fail in the long term.
 
 ## Reflection
 Since overfitting is a huge issue in real world investing, I try to show how to improve the real-world performance by using multiple validation set.
