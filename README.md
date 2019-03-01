@@ -3,7 +3,9 @@
 
 ## Instruction
 *Strategy.ipynb* - code in jupyter notebook
+
 *Strategy.pdf* - pdf version of the code and results
+
 *Returns.png* - Visualization on Performance
 
 
