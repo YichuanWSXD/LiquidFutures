@@ -24,14 +24,14 @@ Three of those are simple classfication tools and I want to test whether they wo
 ![alt text](https://github.com/YichuanWSXD/LiquidFutures/blob/master/Returns.png)
 
 
-It shows that the model does well in the train set period, but performance fades off. Especially after 2008 financial crisis, all models fail to predict the market, which implies that the changed environment after the crisis or simply the models fail in the long term.
+It illustrate that the models do well in the train set period, but the performance fades off quickly into the test. Especially after 2008 financial crisis, all models fail to predict the market, and this may imply a change in the financial environment after the crisis or simply a disappointing performance in the long term.
 
 ## Reflection
-Since overfitting is a huge issue in real world investing, I try to show how to improve the real-world performance by using multiple validation set.
-The performance is disappointing, in my opinion, due to the poor choice of dependent variables. I believe the performance would improve if I put more time on feature selection. Another reason is that I could've put more time into optimazation.
+Since overfitting is a huge issue in real-world investing, I try to show how to improve the real-world performance by using multiple validation set.
+The performance is disappointing, in my opinion, mostly due to the poor choice of dependent variables. I believe the performance would improve if I put more effort into feature selection. Another reason is that I didn't optimaze the parameters.
 
-The difficulty is that the objectives of the project is maximize returns and sortino ratio while minimize drawdowns. I am still trying to figure out how to include those numbers into the model. It may require to build a comprehensive model that computes those metrics during training, and surely the training process would take a long time.
-Another difficult is the mid-frequency strategy. I think it takes some time to figure out how to use the daily date as the training set to form a mid-frequency strategy.
+The difficulty in the project is the objectives of the project, which are maximized returns and sortino ratio, and minimized drawdowns. I am still trying to figure out how to include those objectives into the model. It may require to build a comprehensive model that computes those metrics during training, and surely the training process would take much longer time.
+Another difficult is the mid-frequency strategy. It takes some time to figure out how to use the daily date as the dependent variable to form a mid-frequency strategy.
 
 Neural-network and deep learning could take more dependent variable (more layers) and improve the performance. Continuing traing the model would improve the performance as well. Learned from class, I know that PCA performs well in the bond market by decomposing the yield curves. However I didn't do those because it requires extra research and may take longer than required.
 
